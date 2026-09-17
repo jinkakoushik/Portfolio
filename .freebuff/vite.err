@@ -1,0 +1,159 @@
+[2m12:28:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: C:\Users\jkous\OneDrive\Desktop\Portfolio\src\components\Projects.jsx: Unexpected token, expected "," (205:42)
+
+[0m [90m 203 |[39m                       [33m<[39m[33mcode[39m className[33m=[39m[32m"mp-code"[39m[33m>[39m
+ [90m 204 |[39m                         {[90m/* abstract hero code block placeholder */[39m}
+[31m[1m>[22m[39m[90m 205 |[39m                         [36mimport[39m { {featured[33m.[39mtitle[33m.[39msplit([32m' '[39m)[[35m0[39m]} } [36mfrom[39m [32m'{selected}'[39m
+ [90m     |[39m                                           [31m[1m^[22m[39m
+ [90m 206 |[39m                       [33m<[39m[33m/[39m[33mcode[39m[33m>[39m
+ [90m 207 |[39m                     [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 208 |[39m                   [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/Projects.jsx[39m:205:42
+[33m  203 |                        <code className="mp-code">
+  204 |                          {/* abstract hero code block placeholder */}
+  205 |                          import { {featured.title.split(' ')[0]} } from '{selected}'
+      |                                            ^
+  206 |                        </code>
+  207 |                      </div>[39m
+[2m12:28:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "gsap/useGSAP" from "src/components/Contact.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/Contact.jsx[39m:3:24
+[33m  2  |  var _s = $RefreshSig$();
+  3  |  import { useRef, useEffect } from "react";
+  4  |  import { useGSAP } from "gsap/useGSAP";
+     |                           ^
+  5  |  import { ArrowRight, Mail, Github, Linkedin } from "lucide-react";
+  6  |  import { site } from "../data/site.js";[39m
+[2m12:28:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "gsap/useGSAP" from "src/components/Skills.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/Skills.jsx[39m:3:24
+[33m  2  |  var _s = $RefreshSig$();
+  3  |  import { useEffect, useRef, useState } from "react";
+  4  |  import { useGSAP } from "gsap/useGSAP";
+     |                           ^
+  5  |  import { skillCategories } from "../data/skills.js";
+  6  |  export default function Skills() {[39m
+[2m12:28:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "gsap/useGSAP" from "src/components/About.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/About.jsx[39m:3:24
+[33m  2  |  var _s = $RefreshSig$();
+  3  |  import { useEffect, useRef } from "react";
+  4  |  import { useGSAP } from "gsap/useGSAP";
+     |                           ^
+  5  |  import { site } from "../data/site.js";
+  6  |  export default function About() {[39m
+[2m12:28:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "gsap/useGSAP" from "src/components/Hero.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/Hero.jsx[39m:5:24
+[33m  4  |  import { ArrowDown, ArrowRight, Download } from "lucide-react";
+  5  |  import { site } from "../data/site.js";
+  6  |  import { useGSAP } from "gsap/useGSAP";
+     |                           ^
+  7  |  export default function Hero() {
+  8  |    _s();[39m
+[2m12:36:47 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: C:\Users\jkous\OneDrive\Desktop\Portfolio\src\components\Projects.jsx: Unexpected token, expected "," (205:42)
+
+[0m [90m 203 |[39m                       [33m<[39m[33mcode[39m className[33m=[39m[32m"mp-code"[39m[33m>[39m
+ [90m 204 |[39m                         {[90m/* abstract hero code block placeholder */[39m}
+[31m[1m>[22m[39m[90m 205 |[39m                         [36mimport[39m { {featured[33m.[39mtitle[33m.[39msplit([32m' '[39m)[[35m0[39m]} } [36mfrom[39m [32m'{selected}'[39m
+ [90m     |[39m                                           [31m[1m^[22m[39m
+ [90m 206 |[39m                       [33m<[39m[33m/[39m[33mcode[39m[33m>[39m
+ [90m 207 |[39m                     [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 208 |[39m                   [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/Projects.jsx[39m:205:42
+[33m  203 |                        <code className="mp-code">
+  204 |                          {/* abstract hero code block placeholder */}
+  205 |                          import { {featured.title.split(' ')[0]} } from '{selected}'
+      |                                            ^
+  206 |                        </code>
+  207 |                      </div>[39m
+[2m12:36:47 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "gsap/useGSAP" from "src/components/Skills.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/Skills.jsx[39m:3:24
+[33m  2  |  var _s = $RefreshSig$();
+  3  |  import { useEffect, useRef, useState } from "react";
+  4  |  import { useGSAP } from "gsap/useGSAP";
+     |                           ^
+  5  |  import { skillCategories } from "../data/skills.js";
+  6  |  export default function Skills() {[39m
+[2m12:36:47 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "gsap/useGSAP" from "src/components/About.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/About.jsx[39m:3:24
+[33m  2  |  var _s = $RefreshSig$();
+  3  |  import { useEffect, useRef } from "react";
+  4  |  import { useGSAP } from "gsap/useGSAP";
+     |                           ^
+  5  |  import { site } from "../data/site.js";
+  6  |  export default function About() {[39m
+[2m12:36:47 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "gsap/useGSAP" from "src/components/Contact.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/Contact.jsx[39m:3:24
+[33m  2  |  var _s = $RefreshSig$();
+  3  |  import { useRef, useEffect } from "react";
+  4  |  import { useGSAP } from "gsap/useGSAP";
+     |                           ^
+  5  |  import { ArrowRight, Mail, Github, Linkedin } from "lucide-react";
+  6  |  import { site } from "../data/site.js";[39m
+[2m12:36:47 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "gsap/useGSAP" from "src/components/Hero.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/Hero.jsx[39m:5:24
+[33m  4  |  import { ArrowDown, ArrowRight, Download } from "lucide-react";
+  5  |  import { site } from "../data/site.js";
+  6  |  import { useGSAP } from "gsap/useGSAP";
+     |                           ^
+  7  |  export default function Hero() {
+  8  |    _s();[39m
+[2m12:48:16 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: C:\Users\jkous\OneDrive\Desktop\Portfolio\src\components\Projects.jsx: Unexpected token, expected "," (205:42)
+
+[0m [90m 203 |[39m                       [33m<[39m[33mcode[39m className[33m=[39m[32m"mp-code"[39m[33m>[39m
+ [90m 204 |[39m                         {[90m/* abstract hero code block placeholder */[39m}
+[31m[1m>[22m[39m[90m 205 |[39m                         [36mimport[39m { {featured[33m.[39mtitle[33m.[39msplit([32m' '[39m)[[35m0[39m]} } [36mfrom[39m [32m'{selected}'[39m
+ [90m     |[39m                                           [31m[1m^[22m[39m
+ [90m 206 |[39m                       [33m<[39m[33m/[39m[33mcode[39m[33m>[39m
+ [90m 207 |[39m                     [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 208 |[39m                   [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/Projects.jsx[39m:205:42
+[33m  203 |                        <code className="mp-code">
+  204 |                          {/* abstract hero code block placeholder */}
+  205 |                          import { {featured.title.split(' ')[0]} } from '{selected}'
+      |                                            ^
+  206 |                        </code>
+  207 |                      </div>[39m
+[2m12:48:16 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "gsap/useGSAP" from "src/components/About.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/About.jsx[39m:3:24
+[33m  2  |  var _s = $RefreshSig$();
+  3  |  import { useEffect, useRef } from "react";
+  4  |  import { useGSAP } from "gsap/useGSAP";
+     |                           ^
+  5  |  import { site } from "../data/site.js";
+  6  |  export default function About() {[39m
+[2m12:48:16 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "gsap/useGSAP" from "src/components/Skills.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/Skills.jsx[39m:3:24
+[33m  2  |  var _s = $RefreshSig$();
+  3  |  import { useEffect, useRef, useState } from "react";
+  4  |  import { useGSAP } from "gsap/useGSAP";
+     |                           ^
+  5  |  import { skillCategories } from "../data/skills.js";
+  6  |  export default function Skills() {[39m
+[2m12:48:16 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "gsap/useGSAP" from "src/components/Contact.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/Contact.jsx[39m:3:24
+[33m  2  |  var _s = $RefreshSig$();
+  3  |  import { useRef, useEffect } from "react";
+  4  |  import { useGSAP } from "gsap/useGSAP";
+     |                           ^
+  5  |  import { ArrowRight, Mail, Github, Linkedin } from "lucide-react";
+  6  |  import { site } from "../data/site.js";[39m
+[2m12:48:16 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "gsap/useGSAP" from "src/components/Hero.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/jkous/OneDrive/Desktop/Portfolio/src/components/Hero.jsx[39m:5:24
+[33m  4  |  import { ArrowDown, ArrowRight, Download } from "lucide-react";
+  5  |  import { site } from "../data/site.js";
+  6  |  import { useGSAP } from "gsap/useGSAP";
+     |                           ^
+  7  |  export default function Hero() {
+  8  |    _s();[39m
