@@ -21,8 +21,7 @@ export const site = {
 
   // EDIT: drop your portrait in /public/images/ and set the path here.
   // Leave as '' to use the built-in spider-mask placeholder.
-  portraitUrl: '',
-
+  portraitUrl: '/images/spiderman.jpg',
   // ==========================================================
   //  CONTACT — ✏️ REPLACE THESE THREE PLACEHOLDERS
   // ==========================================================
