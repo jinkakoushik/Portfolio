@@ -4,6 +4,7 @@
  * lead statement, editable paragraphs, and four trait chips.
  * All copy lives in src/data/site.js.
  */
+import "./About.css";
 import { Code2, Puzzle, Hammer, Lightbulb } from 'lucide-react'
 import { site } from '../data/site.js'
 import useGSAP from '../hooks/useGSAP'
@@ -53,7 +54,13 @@ export default function About() {
               <div className="about-web" />
               <div className="about-scan" />
             </div>
-            <p className="about-caption">// hero_dossier.jpg</p>
+            <div className="about-image-container">
+  <img
+    src="/images/hero_dossier.jpg"
+    alt="Koushik Jinka - Developer Dossier"
+    className="about-dossier-image"
+  />
+</div>
           </div>
 
           {/* -------- copy -------- */}

@@ -1,0 +1,22 @@
+
+.about-image-container {
+  width: 100%;
+  max-width: 650px;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.about-dossier-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.about-dossier-image:hover {
+  transform: scale(1.02);
+}
+
