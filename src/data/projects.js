@@ -25,7 +25,7 @@ export const projects = [
       'Discover wines by taste, region and rating. Built end-to-end — a React frontend, an Express REST API with JWT authentication, and a MongoDB database behind it.',
     status: 'featured',
     // EDIT: add your real screenshot → /public/images/wine-explorer.jpg
-    image: '/images/project-wine.jpg.svg',
+    image: '/images/project-wine.jpg',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'REST API'],
     // EDIT: real links when the project is live
     demo: 'https://wine-explorer-sigma.vercel.app/',
